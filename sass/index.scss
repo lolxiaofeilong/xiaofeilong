@@ -1,0 +1,112 @@
+#nav_2 .container .left .Menu{width: 190px;height: 400px;background-color:#0f0f0f;position:absolute;left:0px;top:35px;opacity:0.9;  }
+#top{position:absolute;left:0;top:28px;z-index:9999999;background:#fff;width: 100%;}
+#xiding{height: 124px;width: 100%;}
+
+
+
+
+
+
+#banner{}
+#banner .container{height: 400px;overflow:hidden;/* z-index:10; */}
+#banner .container .lunbo{width: 810px;height: 400px;overflow:hidden;z-index:-1;}
+#banner .container .lunbo ul{width: 4050px;height: 400px;}
+#banner .container .lunbo ul li{float: left;width: 810px;height: 400px;}
+#banner .container .lunbo ul li img{float: right;width: 810px;height: 400px;}
+.active{display:block;}
+.linboul{display:none;}
+
+#banner .container .tupian{width: 200px;height: 400px;background:green;float: right;}
+
+.lunbo{position:relative;width:810px;height:400px;overflow: hidden;}
+        .lunbo ul{position: absolute;left:0;top:0;overflow:hidden;}
+        .lunbo li{float:left;}
+        .lunbo img{display: block;}
+
+        .lunbo > span{position: absolute;left:0;top:50%;width:50px;height:100px;line-height:100px;text-align:center;background-color: rgba(0,0,0,.3);color:#fff;transform: translate(0,-50%);}
+        .lunbo .btnNext{left:auto;right:0;}
+
+        .lunbo .page{position: absolute;left:0;right:0;bottom:10px;text-align:center;}
+        .lunbo .page span{display: inline-block;margin:0 5px;width:20px;height:20px;text-align:center;line-height:20px;border-radius:50%;color:#666;background-color: #cfcfcf;font-size:10px;}
+        .lunbo .page span.active{background-color: #f60;color:#fff;}
+
+#hot1{}
+#hot1 .container{height: 150px;background-color:blue;}
+#hot1 .container ul{}
+#hot1 .container ul li{float: left;width: 253px;height: 150px;overflow:hidden;}
+#hot1 .container ul li:nth-child(1){width: 188px;height: 150px;} 
+#hot1 .container ul li:nth-child(2){border:1px solid #ccc;border-right:none;}
+#hot1 .container ul li:nth-child(3){border:1px solid #ccc;border-right:none;}
+#hot1 .container ul li:nth-child(4){border:1px solid #ccc;border-right:none;}
+#hot1 .container ul li:nth-child(5){border:1px solid #ccc;border-right:none;}
+
+#hot2{}
+#hot2 .container{}
+#hot2 .container .up{padding-top:24px;}
+#hot2 .container .up h4{height: 43px;line-height: 43px;}
+#hot2 .container .down{height: 238px;}
+#hot2 .container .down .left{width: 190px;height: 238px;}
+#hot2 .container .down .center{}
+#hot2 .container .down .center ul{width: 820px;height: 237px;}
+#hot2 .container .down .center ul li{width: 205px;float: left;border-right:1px solid #ccc;border-bottom:1px solid #ccc;}
+#hot2 .container .down .center ul li:nth-child(1){border-top:1px solid #ccc;}
+#hot2 .container .down .center ul li:nth-child(2){border-top:1px solid #ccc;}
+#hot2 .container .down .center ul li:nth-child(3){border-top:1px solid #ccc;}
+#hot2 .container .down .center ul li:nth-child(4){border-top:1px solid #ccc;}
+#hot2 .container .down .center ul li img{width: 200px;height: 78px;}
+#hot2 .container .down .right{}
+
+#recommend{}
+#recommend .container{}
+
+/*下面8个公共的样式*/
+.cont .up{border-bottom:1px solid red;padding-top:20px;}
+.cont .up a{display:block;}
+.cont .up h5{display:inline-block;padding-left:15px;}
+.cont .down{width: 1200px;height: 453px;}
+.cont .down .left{width: 299px;height: 453px;border-top:1px solid red;float: left;}
+.cont .down .right{width: 901px;height: 453px;float: right;font-size:1px;}
+.cont .down .right img{border:1px solid #efefef;}
+/*下面几个轮播图的样式*/
+.carousel{position:relative;width:299px;height:453px;overflow: hidden;}
+        .carousel ul{position: absolute;left:0;top:0;overflow:hidden;}
+        .carousel li{float:left;}
+        .carousel img{display: block;}
+
+        .carousel > span{position: absolute;left:0;top:50%;width:50px;height:100px;line-height:100px;text-align:center;background-color: rgba(0,0,0,.3);color:#fff;transform: translate(0,-50%);}
+        .carousel .btnNext{left:auto;right:0;}
+
+        .carousel .page{position: absolute;left:0;right:0;bottom:10px;text-align:center;}
+        .carousel .page span{display: inline-block;margin:0 5px;width:20px;height:20px;text-align:center;line-height:20px;border-radius:50%;color:#666;background-color: #cfcfcf;font-size:10px;}
+        .carousel .page span.active{background-color: #f60;color:#fff;}
+
+
+#bonded{}
+
+
+#food{}
+
+
+#infant{}
+
+
+#makeup{}
+
+
+#household{}
+
+
+#numercial{}
+
+
+#luggage{}
+
+
+#adult{}
+
+#guding{width: 100px;position:fixed;left:0px;bottom:50px;display:none;}
+#guding li{width: 50px;height: 30px;border:1px solid #ccc;line-height: 30px;text-align:center;font-size:12px;color:#555;}
+#guding li:last-child{display:none;}
+#zuiyou{width: 30px;height:100%;background:#444;position:fixed;right:0;top:0;padding-top:100px;display:none;z-index:12312321313;}
+#zuiyou li{font-size:12px;height: 80px;color:#fff;text-align:center;line-height: 80px;}
+#zuiyou li:hover{background:#f20;}

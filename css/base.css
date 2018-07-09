@@ -1,0 +1,177 @@
+
+*{margin: 0;padding: 0;}
+fieldset, img,input,button { border:0 none; padding:0;margin:0;outline-style:none; }
+ul,li,ol{ list-style:none; }
+select, input { vertical-align:middle;} 
+textarea { resize:none; } 
+img {border:0; vertical-align:middle; }  
+table { border-collapse:collapse; }
+a {text-decoration:none; }
+.clearfix::after{content:"";display:block;height:0;overflow:hidden;visibility:hidden;clear:both;zoom:1;}
+h1,h2,h3,h4,h5,h6 {font-weight:normal;font-size:1em;}
+s,i,em{font-style:normal;text-decoration:none;}
+.fl {float:left;}
+.fr {float:right;}
+.ac {text-align:center;}
+.hide {display:none;}
+.f12{ font-size: 12px;} 
+.f14{ font-size: 14px;}
+.f16{ font-size: 16px;}
+/*body{background-color:#f5f5f5;}*/ 
+
+
+
+*{box-sizing: border-box;}
+header,footer,section,main,nav,article,aside{
+    display:block;}
+.container {width:1200px;margin:0 auto;}
+
+
+
+
+
+
+
+
+/*第一部分导航条*/
+#nav_1{border-bottom:1px solid #e7e7e7;background-color:#efefef;}
+#nav_1 .container{height: 28px;}
+/*第一部分到航天左边部分*/
+#nav_1 .container .left{padding:4px 0 3px 0;}
+#nav_1 .container .left li{float: left;}
+#nav_1 .container .left li a{display:block;font-size:12px;line-height: 20px;padding:0 18px;position:relative;color:#666;}
+#nav_1 .container .left li a i{display:block;position:absolute;left:4px;top:4px;}
+/*第一部分到航天右边部分*/
+#nav_1 .container .right{padding:5px 0 3px 0;}
+#nav_1 .container .right li{float: left;}
+#nav_1 .container .right li a{display:inline-block;font-size:12px;padding:0 18px;position:relative;color:#666;float: left;}
+#nav_1 .container .right li:nth-child(2){width: 100px;height: 20px;}
+#nav_1 .container .right li:nth-child(2) a{padding:0 5px;}
+#nav_1 .container .right li:nth-child(3){background-color:#ff3d3b;}
+#nav_1 .container .right li:nth-child(3) a{color:#fff;}
+#nav_1 .container .right li a i{position:absolute;left:5px;top:2px;}
+/*第一个导航条的hover效果*/
+#nav_1 .container  li a:hover{color:red;}
+
+
+
+
+
+
+
+
+
+/*头部主题部分*/
+
+#top .container{height: 124px;}
+#top .container .left{}
+#top .container .left h1{width: 236px;height: 124px;text-indent:-100000px;background:url(../img/moxi.png) no-repeat;}
+#top .container .left h1 a{}
+
+
+#top .container .center{width: 468px;height: 124px;padding:24px 0;}
+#top .container .center .search{width: 468px;height: 29px;border:1px solid red;}
+#top .container .center .search input{width: 360px;height: 28px;border-right:1px solid red;border-bottom:1px solid red;padding-left:10px;}
+#top .container .center .search button{width: 106px;height: 27px;background-color:red;color:#fff;}
+#top .container .center .Links span{font-size:12px;color:#999;}
+#top .container .center .Links a{font-size:12px;color:#999;}
+
+#top .container .right{padding-right:51px;}
+
+
+
+
+
+
+/*第二个导航条*/
+#nav_2{}
+#nav_2 .container{height: 35px;width: 1200px;}
+#nav_2 .container .left{display:inline-block;width: 190px;height: 35px;background:red;border-bottom:1px solid #CA3333;float: left;line-height: 34px;text-align:center;position:relative;color:#fff;}
+#nav_2 .container .left i{display:block;position:absolute;right:16px;top:6px;font-size:20px;}
+/*二级导航*/
+
+/*#nav_2 .container .left .Menu>li{position:relative;}*/
+#nav_2 .container .left .Menu>li .first{position:absolute;left:30px;top:16px;width: 20px;height: 20px;}
+#nav_2 .container .left .Menu>li:nth-child(2) .first{position:absolute;left:30px;top:66px;}
+#nav_2 .container .left .Menu>li:nth-child(3) .first{position:absolute;left:30px;top:116px;}
+#nav_2 .container .left .Menu>li:nth-child(4) .first{position:absolute;left:30px;top:166px;}
+#nav_2 .container .left .Menu>li:nth-child(5) .first{position:absolute;left:30px;top:216px;}
+#nav_2 .container .left .Menu>li:nth-child(6) .first{position:absolute;left:30px;top:266px;}
+#nav_2 .container .left .Menu>li:nth-child(7) .first{position:absolute;left:30px;top:316px;}
+#nav_2 .container .left .Menu>li:nth-child(8) .first{position:absolute;left:30px;top:366px;}
+#nav_2 .container .left .Menu>li .second{position:absolute;right:30px;top:15px;}
+#nav_2 .container .left .Menu>li:nth-child(2) .second{position:absolute;right:30px;top:65px;}
+#nav_2 .container .left .Menu>li:nth-child(3) .second{position:absolute;right:30px;top:115px;}
+#nav_2 .container .left .Menu>li:nth-child(4) .second{position:absolute;right:30px;top:165px;}
+#nav_2 .container .left .Menu>li:nth-child(5) .second{position:absolute;right:30px;top:215px;}
+#nav_2 .container .left .Menu>li:nth-child(6) .second{position:absolute;right:30px;top:265px;}
+#nav_2 .container .left .Menu>li:nth-child(7) .second{position:absolute;right:30px;top:315px;}
+#nav_2 .container .left .Menu>li:nth-child(8) .second{position:absolute;right:30px;top:365px;}
+#nav_2 .container .left .Menu>li>a{display:block;color:#fff;width: 190px;height: 50px;line-height: 50px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*hover出现二级导航*/
+#nav_2 .container .left:hover .Menu{display:block;}
+/*三级导航*/
+#nav_2 .container .left .Menu .three{width: 545px;height: 400px;border:1px solid blue;position:absolute;left:190px;top:0px;background:#FFF;color:red;padding-top:15px;   display:none;  z-index:1111; }
+#nav_2 .container .left .Menu .three>li{width: 545px;height: 50px;padding-left:20px;}
+#nav_2 .container .left .Menu .three>li h3{font-size:16px;height: 20px;line-height: 20px;text-align:left;color:black;padding-left:5px;font-weight:bold;}
+#nav_2 .container .left .Menu .three>li ul{height: 30px;}
+#nav_2 .container .left .Menu .three>li ul li{float: left;}
+#nav_2 .container .left .Menu .three>li ul li a{color:red;font-size:12px;color:#686660;padding-right:2px;display:block;}
+
+#nav_2 .container .right{display:inline-block;width: 1010px;height: 35px;border-bottom:1px solid #FA6E74;float: right;}
+#nav_2 .container ul{}
+#nav_2 .container ul li{float: left;}
+#nav_2 .container ul li a{font-size:15px;display:block;line-height: 34px;padding:0 15px;color:black;font-weight:bold;}
+/*第二个导航条的hover效果*/
+#nav_2 .container ul li:hover a{color:red;}
+/*二级导航的hover效果*/
+#nav_2 .container .left ul li:hover a{background:#fff;color:red;}
+#nav_2 .container .left ul li:hover i{color:red;}
+#nav_2 .container .left ul li:hover .three{display:block;}
+/*三级导航的hover效果*/
+#nav_2 .container .left .Menu .three>li ul li:hover a{color:red;}
+
+
+/*底部*/
+#bottom{border-top:2px solid red;padding-top:15px;}
+#bottom .container{}
+#bottom .container .up{width: 1200px;height: 214px;}
+#bottom .container .up .inFooterList{padding:0 20px;}
+#bottom .container .up .inFooterList dt h3{border-right:1px solid #ccc;padding:0 42px 0 0px;}
+
+#bottom .container .up .left{width: 736px;height: 214px;}
+#bottom .container .up .left h3{font-weight:bold;}
+#bottom .container .up .left a{font-size:12px;color:#666;}
+#bottom .container .up .center{width: 242px;height: 214px;border-left:1px solid #ccc;border-right:1px solid #ccc;text-align:center;}
+#bottom .container .up .center span{font-size:12px;color:#666;}
+#bottom .container .up .right{width: 222px;height: 214px;text-align:center;padding:0 30px;}
+#bottom .container .up .right span{font-size:12px;color:#666;}
+
+
+#bottom .container>.center{width: 1200px;height: 155px;font-size:8px;}
+
+
+#bottom .container .down{width: 1200px;height: 97px;text-align:center;}
+#bottom .container .down p{font-size:12px;color:#222;}
+#bottom .container .down img{padding:0 20px;}
+#bottom .container .up a:hover{color:red;}
+
+
