@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>小小数数家</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app" aria-labelledby="app-title">
+      <section class="hero">
+        <p class="eyebrow">儿童数数练习</p>
+        <h1 id="app-title">小小数数家</h1>
+        <p class="intro">点一点小图案，数到题目里的数字，再检查答案。</p>
+      </section>
+
+      <section class="card game-card" aria-live="polite">
+        <div class="top-bar">
+          <div>
+            <span class="label">第</span>
+            <strong id="round-number">1</strong>
+            <span class="label">题 / 5</span>
+          </div>
+          <div class="stars" id="stars" aria-label="星星奖励">☆☆☆☆☆</div>
+        </div>
+
+        <div class="question">
+          <p id="prompt">请数出 3 个小太阳</p>
+          <div class="target-number" id="target-number" aria-label="目标数字">3</div>
+        </div>
+
+        <div class="counter" aria-label="已经数到的数量">
+          <span>我数到：</span>
+          <strong id="selected-count">0</strong>
+        </div>
+
+        <div class="objects" id="objects" aria-label="可点击计数的图案"></div>
+
+        <div class="actions">
+          <button id="check-button" class="primary" type="button">检查答案</button>
+          <button id="clear-button" type="button">重新数</button>
+          <button id="next-button" type="button">下一题</button>
+        </div>
+
+        <p class="feedback" id="feedback">先点图案开始数数吧！</p>
+      </section>
+
+      <section class="card tips">
+        <h2>给家长的小提示</h2>
+        <ul>
+          <li>让孩子边点边大声读出数字。</li>
+          <li>答错时可以点“重新数”，鼓励孩子再试一次。</li>
+          <li>完成 5 题后会显示星星奖励。</li>
+        </ul>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
